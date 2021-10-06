@@ -1,11 +1,9 @@
 defmodule Wabanex.Users.Create do
+  alias Wabanex.{Repo, User}
 
-    alias Wabanex.{Repo, User}
-
-    def call(params) do
-      params
-      |> User.changeset()
-      |> Repo.insert()
-    end
-
+  def call(params) do
+    params
+    |> User.changeset()
+    |> Repo.insert()
+  end
 end
