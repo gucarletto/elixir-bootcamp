@@ -32,3 +32,4 @@ wabanex-*.tar
 npm-debug.log
 /assets/node_modules/
 
+*.code-workspace
