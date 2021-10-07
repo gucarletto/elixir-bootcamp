@@ -12,7 +12,7 @@ config :wabanex,
 
 config :wabanex, Wabanex.Repo,
   migration_primary_key: [type: :binary_id],
-  migration_foreign_key: [type: :bynary_id]
+  migration_foreign_key: [type: :binary_id]
 
 # Configures the endpoint
 config :wabanex, WabanexWeb.Endpoint,
